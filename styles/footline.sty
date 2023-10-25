@@ -1,0 +1,23 @@
+\setbeamertemplate{footline}{%
+  \leavevmode
+  \hbox{%
+    \begin{beamercolorbox}[wd=0.35\paperwidth,ht=2.5ex,dp=1.125ex]{palette tertiary}%
+      \centering
+      \usebeamerfont{title in head/foot}%
+      \inserttitle%
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=0.3\paperwidth,ht=2.5ex,dp=1.125ex]{palette secondary}%
+      \centering
+      \usebeamerfont{section in head/foot}
+      \insertsection%
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=0.35\paperwidth,ht=2.5ex,dp=1.125ex]{palette primary}%
+      \hspace*{1em} % 可以调整左边距
+      \usebeamerfont{date in head/foot}%
+      \insertshortdate{}~
+      \hfill
+      \insertframenumber/\inserttotalframenumber%
+      \hspace*{1em} % 可以调整右边距
+    \end{beamercolorbox}%
+  }
+}
