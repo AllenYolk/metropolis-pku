@@ -1,6 +1,6 @@
 # metropolis-pku
 
-A beamer theme for PKU students, modified from [Metropolis](https://github.com/matze/mtheme).
+A delicate beamer theme for PKU students, modified from [Metropolis](https://github.com/matze/mtheme).
 
 Thanks [良亦无言](https://www.zhihu.com/people/espero1999) for the original beamer demo!
 
